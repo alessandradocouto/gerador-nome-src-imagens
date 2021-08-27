@@ -7,6 +7,6 @@ Pra quem quer adotar boas práticas de acessibilidade e de seo em seus projetos.
 
 ### Gerador pronto! 📺
 
-(https://github.com/alessandradocouto/gerador-nome-src-imagens/blob/master/gif_gerador.gif)
+<img src="https://github.com/alessandradocouto/gerador-nome-src-imagens/blob/master/gif_gerador.gif" width="40" height="40" />
 
 #### Obrigada pela visita, amados 🍻
