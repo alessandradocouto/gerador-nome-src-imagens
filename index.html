@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Nome de Imagens</title>
+
+    <link href="style.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css">
+</head>
+<body>
+    <main>
+
+        <section class="wrapper">
+            <article class="container">
+                <div class="container-left">
+                    <div class="container-details">
+                        <h2 class="container-details-text">
+                            Alt da imagem
+                        </h2>
+                    </div>
+                    <div class="area-left">
+                        <textarea id="textarea-left" name="txtEntrada" cols="28" rows="8" autofocus="true"></textarea>
+                        <div class="container-button">
+                            <button class="button button-type-jpg">jpg</button>
+                            <button class="button button-type-png">png</button>
+                            <button class="button button-del">apagar</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="container-right">
+
+                    <div class="container-details">
+                        <h2 class="container-details-text">
+                            Nome (url) da imagem
+                        </h2>
+                    </div>
+
+                    <div class="area-right">
+                        <textarea id="textarea-right" name="txtSaida" cols="28" rows="8"></textarea>
+                        <div class="container-button">
+                            <button class="button button-select-all">selecionar tudo</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </article>
+
+        </section>
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
